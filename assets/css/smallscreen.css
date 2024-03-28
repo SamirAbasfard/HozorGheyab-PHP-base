@@ -1,0 +1,29 @@
+/*#region public*/
+
+/*#endregion public*/
+
+/*#region header*/
+header {
+    text-align: center;
+}
+
+/* #header-right {
+    text-align: center;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#header-right img {
+    width: 100px;
+    text-align: center;
+} */
+
+header div.widescreen-row{
+    display: none;
+}
+
+
+#fullpage > header > nav > div > a.navbar-brand >img {
+    width: 80px;
+}
+
+/*#endregion header*/
