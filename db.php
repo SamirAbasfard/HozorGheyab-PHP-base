@@ -6,7 +6,6 @@ class class_db
 
     public function __construct()
     {
-
 // ارتباط با دیتابیس
         $servername = "localhost";
         $username_db = "root";

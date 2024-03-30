@@ -1,3 +1,9 @@
+/*
+* mystyle.css
+* Author: Samir Abasfard
+* Email: samir.abasfard@gmail.com
+******************************************************************************/
+
 :root {
 
   }
@@ -22,11 +28,28 @@ flex-direction: row-reverse;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
-    height: 60px;
+    height: unset;
 }
 
+@media (min-width: 576px) {
+    #card-bar {
+        height: 60px;
+    }
+    #card-bar-left {
+        text-align: left;
+    }
+}
+
+@media (max-width: 575px) {
+    #card-bar-left ,
+    #card-bar-right
+    {
+        text-align: center;
+    }
+}
 
 #card-bar-right > h5 {
+
     line-height: 40px;
     padding: 0;
 }
